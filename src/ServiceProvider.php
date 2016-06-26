@@ -4,8 +4,8 @@ namespace Simplenotezy\LaravelEconomic;
 use Exception;
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 
-use Economic\Client as EconomicClient;
-use Economic\Api\Configuration as EconomicConfiguration;
+use Simplenotezy\Economic\Client as EconomicClient;
+use Simplenotezy\Economic\Api\Configuration as EconomicConfiguration;
 
 class ServiceProvider extends IlluminateServiceProvider
 {
