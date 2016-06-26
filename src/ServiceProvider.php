@@ -38,7 +38,7 @@ class ServiceProvider extends IlluminateServiceProvider
                  * @var [type]
                  */
                 
-                    $config = $app['config']->get('config.economic');
+                    $config = $app['config']->get('economic');
 
                 /**
                  * Setup economic

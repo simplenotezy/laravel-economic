@@ -12,7 +12,7 @@ return array(
     |
     */
    
-   		'token' => env('ECONOMIC_APP_TOKEN', ''),
+   		'appToken' => env('ECONOMIC_APP_TOKEN', ''),
 
     /*
     |--------------------------------------------------------------------------
