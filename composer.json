@@ -1,5 +1,5 @@
 {
-    "name": "simplenotezy/laravel-e-conomic",
+    "name": "simplenotezy/laravel-economic",
     "description": "A e-conomic wrapper for Laravel",
     "license": "MIT",
     "keywords": ["laravel", "e-conomic", "economic", "accounting"],

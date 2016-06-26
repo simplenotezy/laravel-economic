@@ -10,7 +10,7 @@ use Illuminate\Http\Response;
 /**
  * A Laravel wrapper for E-conomic
  *
- * @package laravel-e-conomic
+ * @package laravel-economic
  * @author Mattias Fjellvang
  */
 class Economic{
