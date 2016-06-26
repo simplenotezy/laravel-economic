@@ -11,22 +11,14 @@
     ],
     "repositories": [
         {
-            "type": "package",
-            "package": {
-                "name": "simplenotezy/economic-soap-php-client",
-                "version": "dev-master",
-                "source": {
-                    "url": "https://github.com/simplenotezy/economic-soap-php-client",
-                    "type": "git",
-                    "reference": "origin/master"
-                }
-            }
+            "type": "vcs",
+            "url": "https://github.com/simplenotezy/economic-soap-php-client"
         }
     ],
     "require": {
         "php": ">=5.5.9",
         "illuminate/support": "5.1.x|5.2.x",
-        "simplenotezy/economic-soap-php-client": "dev-master"
+        "simplenotezy/economic-soap-php-client": "@dev"
     },
 
     "autoload": {
