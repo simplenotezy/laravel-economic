@@ -16,7 +16,7 @@ After updating composer, add the ServiceProvider to the providers array in confi
 
 You can optionally use the facade. Add this to your facades:
 
-    'EConomic' => Simplenotezy\LaravelEconomic\Facade::class,
+    'Economic' => Simplenotezy\LaravelEconomic\Facade::class,
   
 ## Using
 
