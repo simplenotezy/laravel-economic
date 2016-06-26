@@ -12,7 +12,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/simplenotezy/economic-soap-php-client"
+            "url": "https://github.com/simplenotezy/economic-soap-php-client.git"
         }
     ],
     "require": {
