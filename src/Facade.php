@@ -1,5 +1,5 @@
 <?php
-namespace Simplenotezy\Economic;
+namespace Simplenotezy\LaravelEconomic;
 
 use Illuminate\Support\Facades\Facade as IlluminateFacade;
 

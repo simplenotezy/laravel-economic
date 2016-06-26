@@ -1,5 +1,5 @@
 <?php
-namespace Simplenotezy\Economic;
+namespace Simplenotezy\LaravelEconomic;
 
 use Exception;
 use Illuminate\Filesystem\Filesystem;
