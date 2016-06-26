@@ -9,24 +9,10 @@
             "email": "simplenotezy@users.noreply.github.com"
         }
     ],
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "simplenotezy/economic-soap-php-client",
-                "version": "1.0",
-                "source": {
-                    "url": "https://github.com/simplenotezy/economic-soap-php-client",
-                    "type": "git",
-                    "reference": "origin/master"
-                }
-            }
-        }
-    ],
     "require": {
         "php": ">=5.5.9",
         "illuminate/support": "5.1.x|5.2.x",
-        "simplenotezy/economic-soap-php-client": "1.0"
+        "simplenotezy/economic-soap-php-client": "dev-master"
     },
 
     "autoload": {
