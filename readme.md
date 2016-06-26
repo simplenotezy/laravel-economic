@@ -20,7 +20,14 @@ You can optionally use the facade. Add this to your facades:
   
 ## Using
 
-Work in progress...
+
+		/**
+		 * Tests
+		 */
+		
+			Route::get('/', function() {
+				dd(Economic::getEconomic());
+			});
     
 ### License
 
