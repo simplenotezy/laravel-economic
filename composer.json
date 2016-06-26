@@ -31,7 +31,7 @@
 
     "autoload": {
         "psr-4": {
-            "simplenotezy\\laravel-e-conomic\\": "src"
+            "Simplenotezy\\LaravelEconomic": "src/"
         }
     },
     "minimum-stability": "dev"
