@@ -53,7 +53,7 @@ class ServiceProvider extends IlluminateServiceProvider
                  * Init using config
                  */
 
-                    return new EconomicClient($configuration);
+                    return new Economic(new EconomicClient($configuration));
             });
 
     }

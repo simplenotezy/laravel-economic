@@ -6,6 +6,7 @@ use Illuminate\Filesystem\Filesystem;
 use Illuminate\View\Factory as ViewFactory;
 use Illuminate\Contracts\Config\Repository as ConfigRepository;
 use Illuminate\Http\Response;
+use Economic\Client as EconomicClient;
 
 /**
  * A Laravel wrapper for E-conomic
@@ -25,9 +26,8 @@ class Economic{
      * @param Economic $economic
      * @param \Illuminate\Contracts\Config\Repository $config
      */
-    public function __construct(Economic $economic, ConfigRepository $config){
-        $this->economic = $economic;
-        $this->config = $config;
+    public function __construct(EconomicClient $economicClient){
+        $this->economic = $economicClient;
     }
 
     /**
@@ -37,5 +37,17 @@ class Economic{
      */
     public function getEconomic(){
         return $this->economic;
+    }
+
+    public function setToken($token) {
+        $this->economic->getConfiguration()->token = $token;
+
+        return $this;
+    }
+
+    public function setAppToken($token) {
+        $this->economic->getConfiguration()->appToken = $token;
+
+        return $this;
     }
 }
