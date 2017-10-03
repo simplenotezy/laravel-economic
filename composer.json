@@ -21,11 +21,11 @@
         }
     },
     "minimum-stability": "dev",
-	"extra": {
-		"laravel": {
-			"providers": [
-				 "Simplenotezy\\LaravelEconomic\\ServiceProvider"
-			]
-		}
-	}
+    "extra": {
+        "laravel": {
+            "providers": [
+                 "Simplenotezy\\LaravelEconomic\\ServiceProvider"
+            ]
+        }
+    }
 }
